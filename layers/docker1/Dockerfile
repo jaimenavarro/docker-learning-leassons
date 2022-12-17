@@ -3,12 +3,9 @@ FROM ubuntu
 RUN apt-get update
 RUN echo hihi
 RUN touch /hi
-RUN rm /hi
-RUN touch a_file
-WORKDIR /a_folder
-RUN touch a_file
-RUN ls -l
-RUN echo $PWD $HOME
+RUN rm -f /hi    #This layer has been created/updated/removed
+
+## The following images will be rebuild
 RUN apt-get install curl nmap net-tools dnsutils -y
-RUN echo $PWD $HOME
+RUN echo NEWLINE!!!
 CMD ["echo", "hello"]
