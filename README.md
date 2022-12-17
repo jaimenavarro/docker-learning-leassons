@@ -6,6 +6,8 @@ This project is meant to be used for testing purpose to ease understand some adv
 
 https://github.com/wagoodman/dive
 
+![Image](docs/demo.gif)
+
 ## General Concepts
 * https://vsupalov.com/docker/
 
