@@ -1,9 +1,8 @@
-rebase_branch_1
+merge_branch_1
 
-rebase_branch_2
+merge_branch_2
 
-rebase_brnach_3
-
+merge_branch_3
 
 # Docker Learning Lessons
 
